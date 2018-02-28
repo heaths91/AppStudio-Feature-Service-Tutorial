@@ -47,7 +47,7 @@ Are you still with me? I hope so, now that we have our study area defined we wan
                 }
             }"
 Now if you go to file/saveall again, you can test your app and it should populate with your REST service!
-<img src="/heaths91/AppStudio-Feature-Service-Tutorial/raw/master/featureservice.png" alt="" style="max-width:100%;">
+<img src="/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/featureservice.png" alt="" style="max-width:100%;">
             
 
 ### Author
