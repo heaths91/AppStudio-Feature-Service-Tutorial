@@ -11,7 +11,7 @@ After you have successfully installed Esri AppStudio you are now ready to create
 1. Open Esri AppStudio on your desktop/laptop computer
 2. Click 'new app'
 3. Select 'Hello World (runtime)'
-4. Rename it some relevant to your project
+4. Rename it something relevant to your project
 5. Create
 
 Once you have created your app, you can now test it by clicking 'Run'
