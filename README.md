@@ -46,7 +46,7 @@ Are you still with me? I hope so, now that we have our study area defined we wan
                     url: "https://services6.arcgis.com/eIF8pWUENRGiMcYy/arcgis/rest/services/Hospitals/FeatureServer/0"
                 }
             }"
-Now if you go to file/saveall again, you can test your app and it should populate with your REST service!
+Now if you go to file/saveall again, and again hit 'Run' within AppStudio you can test your app and it should populate with your REST service!
 <img src="/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/featureservice.png" alt="" style="max-width:100%;">
             
 
