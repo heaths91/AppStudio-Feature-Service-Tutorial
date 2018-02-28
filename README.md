@@ -19,7 +19,7 @@ Once you have created your app, you can now test it by clicking 'Run'
 ## Changing your study area and embedding a REST service
 You will now want to open your app in QT which was included in your AppStudio download package. To do this click the 'edit' button within App studio symbolized as {;}. You will now have access to the code and can begin editing. First, determine where you want your study area to be. For the purposes of this tutorial I chose Tacoma, Washington. Remember that this code is calling for map coordinates, the easiest way to determine these is to open ArcGIS, make sure the projection is set as "Web Mercator Auxillary Sphere" and hover over the area you want to focus on (the coordinates will alter as you hover and can be found at the bottom of your map window) and record the coordinates there. To change them within the code, navigate to this area of the code and change the x/y coordinates to your specific area.
 
-        '''qml 
+         
          Map{
             id:map
 
@@ -35,20 +35,20 @@ You will now want to open your app in QT which was included in your AppStudio do
                 // Specify the scale
                 targetScale: 1000000
             } 
-            '''
+            
             
 Now after you have done this, make sure to file/saveall , now navigate back to AppStudio and select 'Run', and your app should look like this:
 
 <img src="https://github.com/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/tacoma.png" alt="" style="max-width:100%;">
 
 Are you still with me? I hope so, now that we have our study area defined we want to add our feature service. For the purposes of this tutorial I will be calling a REST service containing the hospitals in Washington. We can do that by adding this little chunk of code directly under the previous set we just played with.
-         '''qml
+         
             FeatureLayer {
                 ServiceFeatureTable {
                     url: "https://services6.arcgis.com/eIF8pWUENRGiMcYy/arcgis/rest/services/Hospitals/FeatureServer/0"
                 }
             }
-            '''
+            
 Now if you go to file/saveall again, and again hit 'Run' within AppStudio you can test your app and it should populate with your REST service!
 
 <img src="https://github.com/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/featureservice.png" alt="" style="max-width:100%;">
