@@ -37,7 +37,7 @@ You will now want to open your app in QT which was included in your AppStudio do
             } "
             
 Now after you have done this, make sure to file/saveall , now navigate back to AppStudio and select 'Run', and your app should look like this:
-<img src="/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/tacoma.png" alt="" style="max-width:100%;">
+<img src="https://github.com/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/tacoma.png" alt="" style="max-width:100%;">
 
 Are you still with me? I hope so, now that we have our study area defined we want to add our feature service. For the purposes of this tutorial I will be calling a REST service containing the hospitals in Washington. We can do that by adding this little chunk of code directly under the previous set we just played with.
 
@@ -47,7 +47,7 @@ Are you still with me? I hope so, now that we have our study area defined we wan
                 }
             }"
 Now if you go to file/saveall again, and again hit 'Run' within AppStudio you can test your app and it should populate with your REST service!
-<img src="/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/featureservice.png" alt="" style="max-width:100%;">
+<img src="https://github.com/heaths91/AppStudio-Feature-Service-Tutorial/blob/master/featureservice.png" alt="" style="max-width:100%;">
             
 
 ### Author
