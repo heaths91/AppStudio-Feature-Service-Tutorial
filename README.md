@@ -39,18 +39,33 @@ You will now want to open your app in QT which was included in your AppStudio do
 Now after you have done this, make sure to file/saveall , now navigate back to AppStudio and select 'Run', and your app should look like this:
 <img src="/heaths91/AppStudio-Feature-Service-Tutorial/raw/master/tacoma.png" alt="" style="max-width:100%;">
 
-### Break down into end to end tests
+Are you still with me? I hope so, now that we have our study area defined we want to add our feature service. For the purposes of this tutorial I will be calling a REST service containing the hospitals in Washington. We can do that by adding this little chunk of code directly under the previous set we just played with.
 
-Explain what these tests test and why
+           "FeatureLayer {
+                ServiceFeatureTable {
+                    url: "https://services6.arcgis.com/eIF8pWUENRGiMcYy/arcgis/rest/services/Hospitals/FeatureServer/0"
+                }
+            }"
+Now if you go to file/saveall again, you can test your app and it should populate with your REST service!
+<img src="/heaths91/AppStudio-Feature-Service-Tutorial/raw/master/featureservice.png" alt="" style="max-width:100%;">
+            
 
-```
-Give an example
-```
+### Author
+Stuart Heath MSGT University of Washington-Tacoma
 
-### And coding style tests
+### Acknowledgement
+This tutorial is based on information from <a href="https://developers.arcgis.com/qt/latest/qml/sample-code/sample-qt-featurelayer-featureservice.htm" rel="nofollow">ArcGIS for Developers</a>
 
-Explain what these tests test and why
+### License
+Copyright 2017 Esri
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-```
-Give an example
-```
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+imitations under the License.
